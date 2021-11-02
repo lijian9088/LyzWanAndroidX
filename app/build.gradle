@@ -1,6 +1,7 @@
 plugins {
     id 'com.android.application'
     id 'kotlin-android'
+    id 'kotlin-android-extensions'
 }
 
 android {
@@ -40,4 +41,26 @@ dependencies {
     testImplementation 'junit:junit:4.+'
     androidTestImplementation 'androidx.test.ext:junit:1.1.2'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.3.0'
+
+    implementation 'com.squareup.retrofit2:retrofit:2.9.0'
+    implementation 'com.squareup.retrofit2:converter-gson:2.9.0'
+    implementation 'androidx.lifecycle:lifecycle-livedata-ktx:2.3.1'
+    implementation 'com.blankj:utilcodex:1.30.6'
+    implementation 'org.jetbrains.kotlinx:kotlinx-coroutines-android:1.4.2'
+    implementation 'org.jetbrains.kotlinx:kotlinx-coroutines-core:1.5.2'
+    implementation 'com.squareup.okhttp3:logging-interceptor:4.9.2'
+
+    def lastversion = "3.5.0.1"
+    debugImplementation "io.github.didi.dokit:dokitx:${lastversion}"
+
+    implementation 'androidx.fragment:fragment-ktx:1.3.2'
+    implementation 'androidx.activity:activity-ktx:1.2.3'
+
+    implementation 'io.reactivex.rxjava2:rxjava:2.2.14'
+    implementation 'io.reactivex.rxjava2:rxandroid:2.1.1'
+    implementation 'com.github.CymChad:BaseRecyclerViewAdapterHelper:2.9.50'
+    implementation 'com.github.hackware1993:MagicIndicator:1.6.0'
+
+    // 权限请求框架：https://github.com/getActivity/XXPermissions
+    implementation 'com.github.getActivity:XXPermissions:12.6'
 }
