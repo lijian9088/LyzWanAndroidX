@@ -1,5 +1,6 @@
 package com.lyz.lyzwanandroidx.network
 
+import com.blankj.utilcode.util.LogUtils
 import okhttp3.OkHttpClient
 import okhttp3.logging.HttpLoggingInterceptor
 import retrofit2.Retrofit
@@ -17,11 +18,13 @@ object ServiceCreator {
 
     private val retrofit by lazy {
 
+        val loggingInterceptor = HttpLoggingInterceptor().apply {
+            setLevel(HttpLoggingInterceptor.Level.BODY)
+        }
+
         val client = OkHttpClient.Builder()
             .connectTimeout(10000L, TimeUnit.MILLISECONDS)
-            .addInterceptor(HttpLoggingInterceptor().apply {
-                setLevel(HttpLoggingInterceptor.Level.BASIC)
-            })
+            .addInterceptor(loggingInterceptor)
             .build()
 
         Retrofit.Builder()
