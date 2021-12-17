@@ -17,14 +17,12 @@ import com.lyz.lyzwanandroidx.ui.main.me.MeFragment
 import com.lyz.lyzwanandroidx.ui.main.project.ProjectFragment
 import com.lyz.lyzwanandroidx.ui.main.square.SquareFragment
 import com.lyz.lyzwanandroidx.ui.main.wechat.WechatFragment
-import net.lucode.hackware.magicindicator.MagicIndicator
 
 
 class MainFragment : BaseFragment() {
 
     private lateinit var viewPager: ViewPager
     private lateinit var bottomNavigationView: BottomNavigationView
-    private lateinit var magicIndicator: MagicIndicator
     private val titleList = mutableListOf("首页", "项目", "广场", "公众号", "我的")
     private var fragmentList: MutableList<Fragment> = mutableListOf()
 

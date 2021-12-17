@@ -7,6 +7,12 @@
         <entry key="app/src/main/res/drawable/ic_project.xml" value="0.21574074074074073" />
         <entry key="app/src/main/res/drawable/ic_square.xml" value="0.21574074074074073" />
         <entry key="app/src/main/res/drawable/ic_wechat.xml" value="0.21574074074074073" />
+        <entry key="app/src/main/res/drawable/selector_btn.xml" value="0.1925925925925926" />
+        <entry key="app/src/main/res/drawable/selector_normal.xml" value="0.1925925925925926" />
+        <entry key="app/src/main/res/drawable/svg_add.xml" value="0.1814814814814815" />
+        <entry key="app/src/main/res/drawable/svg_back.xml" value="0.1814814814814815" />
+        <entry key="app/src/main/res/drawable/svg_clear.xml" value="0.1814814814814815" />
+        <entry key="app/src/main/res/drawable/svg_detail.xml" value="0.1814814814814815" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.20697463768115942" />
         <entry key="app/src/main/res/layout/activity_splash.xml" value="0.20697463768115942" />
         <entry key="app/src/main/res/layout/fragment_home.xml" value="0.17527173913043478" />
@@ -15,6 +21,7 @@
         <entry key="app/src/main/res/layout/fragment_project.xml" value="0.17527173913043478" />
         <entry key="app/src/main/res/layout/fragment_square.xml" value="0.17527173913043478" />
         <entry key="app/src/main/res/layout/fragment_wechat.xml" value="0.17527173913043478" />
+        <entry key="app/src/main/res/layout/item_home.xml" value="0.15081521739130435" />
         <entry key="app/src/main/res/menu/menu_main.xml" value="0.28229166666666666" />
         <entry key="app/src/main/res/menu/navigation.xml" value="0.28229166666666666" />
       </map>

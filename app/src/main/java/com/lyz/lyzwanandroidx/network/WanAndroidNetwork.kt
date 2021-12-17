@@ -36,5 +36,7 @@ object WanAndroidNetwork {
     }
 
     suspend fun getBanner() = service.getBanner().await()
+    suspend fun getTopArticle() = service.getTopArticle().await()
+    suspend fun getPageArticle(page: Int) = service.getPageArticle(page).await()
 
 }

@@ -8,4 +8,7 @@ import androidx.appcompat.app.AppCompatActivity
  * @Describe
  */
 open class BaseActivity : AppCompatActivity() {
+    // override fun getResources(): Resources {
+    //     return AdaptScreenUtils.adaptWidth(super.getResources(), 1080)
+    // }
 }
